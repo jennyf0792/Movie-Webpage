@@ -36,9 +36,17 @@ p {
     background-color: rgba(153, 179, 255, 0.7);
 }
 
-.pure-input-rounded {
-    border-radius: 2em;
-    padding: .5em 1em
+h2 {
+    text-align: center;
 }
 
-#order 
+.pure-input-rounded {
+    border-radius: 2em;
+    border-color: skyblue;
+    padding: .5em 1em;
+}
+
+#order {
+    text-align: center;
+    color: white;
+}
