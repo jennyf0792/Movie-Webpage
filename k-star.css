@@ -35,3 +35,10 @@ p {
 #pre-order {
     background-color: rgba(153, 179, 255, 0.7);
 }
+
+.pure-input-rounded {
+    border-radius: 2em;
+    padding: .5em 1em
+}
+
+#order 
