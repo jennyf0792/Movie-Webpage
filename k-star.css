@@ -14,6 +14,7 @@ h1 {
 h2 {
     color: #ff4d79;
     font-size: 45px;
+    text-align: center;
 }
 
 p {
@@ -34,10 +35,6 @@ p {
 
 #pre-order {
     background-color: rgba(153, 179, 255, 0.7);
-}
-
-h2 {
-    text-align: center;
 }
 
 .pure-input-rounded {
