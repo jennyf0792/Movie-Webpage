@@ -54,3 +54,10 @@ h2 {
 #feat-list {
     color: white;
 }
+
+#remember {
+    color: green;
+    text-align: center;
+    background-color: #99ffff;
+    opacity: 0.7;
+}
