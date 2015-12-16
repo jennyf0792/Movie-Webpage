@@ -9,11 +9,13 @@ h1 {
     color: #ffff99;
     text-align: center;
     font-size: 100px;
+    font-family: "Righteous";
 }
 
 h2 {
     color: #ff4d79;
     font-size: 45px;
+    text-align: center;
 }
 
 p {
@@ -36,21 +38,25 @@ p {
     background-color: rgba(153, 179, 255, 0.7);
 }
 
-h2 {
-    text-align: center;
-}
-
 .pure-input-rounded {
+    height: 20px;
+    font-size: 14pt;
     border-radius: 2em;
     border-color: skyblue;
     padding: .5em 1em;
 }
 
 #order {
+    float: left;
     text-align: center;
-    color: white;
+    font-size: 30px;
+    color: #ff5bad;
 }
 
 #feat-list {
     color: white;
+}
+
+.place {
+    display:inline;
 }
