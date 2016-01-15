@@ -3,6 +3,7 @@ body {
     background-color: #ff6699;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
