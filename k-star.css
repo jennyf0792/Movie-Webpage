@@ -67,6 +67,10 @@ p {
     opacity: 0.7;
 }
 
+.bounceIn {
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
 
 #feat-list {
     color: #aaff80;
