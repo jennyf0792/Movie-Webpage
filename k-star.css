@@ -3,17 +3,20 @@ body {
     background-color: #ff6699;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     color: #ffff99;
     text-align: center;
     font-size: 100px;
+    font-family: "Righteous";
 }
 
 h2 {
     color: #ff4d79;
     font-size: 45px;
+    text-align: center;
 }
 
 p {
@@ -36,23 +39,24 @@ p {
     background-color: rgba(153, 179, 255, 0.7);
 }
 
-h2 {
-    text-align: center;
-}
-
 .pure-input-rounded {
+    height: 20px;
+    font-size: 14pt;
     border-radius: 2em;
     border-color: skyblue;
     padding: .5em 1em;
 }
 
 #order {
+    float: left;
     text-align: center;
-    color: white;
+    font-size: 30px;
+    color: #3333cc;
 }
 
-#feat-list {
-    color: white;
+.place {
+    background-color: rgba(191, 191, 191, 0.8);
+    display: inline;
 }
 
 #remember {
@@ -68,4 +72,75 @@ h2 {
 
 #heading1 {
     text-shadow:gray;
+
+#feat-list {
+    color: #aaff80;
+    font-size: 23px;
+    background-color: rgba(153, 153, 255, 0.8);
+}
+
+h3 {
+    text-align: center;
+    color: #ff9999;
+    font-size: 40px;
+}
+
+.pure-button {
+    display: inline-block;
+    line-height: normal;
+    white-space: nowrap;
+    vertical-align: baseline;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Righteous";
+    font-size: 100%;
+    padding: .2em 1em;
+    color: white;
+    background: rgb(28, 184, 65);
+    border: 3px solid #99ff99;
+    border-radius: 15px;
+}
+
+.age {
+    background-color: rgba(191, 191, 191, 0.8);
+}
+
+#got-7 {
+    position: absolute;
+    margin: -10px 200px;
+}
+
+#bts {
+    position: absolute;
+    margin: -10px 600px;
+    height: 200px;
+    width: 350px;
+}
+
+#big-bang {
+    position: absolute;
+    margin: -10px 1050px;
+    height: 200px;
+    width: 350px;
+}
+
+#a1 {
+    text-decoration: none;
+    color: MediumTurquoise;
+    font-family: fantasy;
+    font-size: 15pt;
+}
+
+.button {
+    padding: 3px;
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    background: -webkit-linear-gradient(top, #FF1493, #2f5f63);
+    background: -moz-linear-gradient(top, #FF1493, #2f5f63);
+    background: -o-linear-gradient(top, #FF1493, #2f5f63);
+    background: -ms-linear-gradient(top, #FF1493, #2f5f63);
+    background: linear-gradient(top, #FF1493, #2f5f63);
+    border-radius: 15px;
+    box-shadow: 0 8px 0 #00BFFF;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
 }

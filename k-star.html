@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <title>Hallyu Stars Movie</title>
   <link rel="stylesheet" href="k-star.css" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
   <!--K-pop boybands = https://upload.wikimedia.org/wikipedia/commons/e/e1/K-pop_boybands.jpg-->
-  <!--Image 2-->
+  <!--got7 = https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/GOT7_at_2015_Summer_K-POP_Festival.jpg/320px-GOT7_at_2015_Summer_K-POP_Festival.jpg-->
+  <!--BTS = https://upload.wikimedia.org/wikipedia/commons/0/00/KOCIS_Korea_Mnet_BTS_01_(12986916653).jpg-->
+  <!--big bang = https://upload.wikimedia.org/wikipedia/commons/c/ce/BIGBANG_Extraordinary_20's.JPG-->
+  <!--Video Image = https://upload.wikimedia.org/wikipedia/commons/8/8e/LG%EC%A0%84%EC%9E%90,_%E2%80%98CYON_%EB%B9%84%EB%B3%B4%EC%9D%B4_%EC%B1%94%ED%94%BC%EC%96%B8%EC%8B%AD_2010%E2%80%99_%EB%B3%B8%EC%84%A0_%EA%B0%9C%EC%B5%9C(1).jpg-->
 </head>
 
 <body>
@@ -20,45 +24,61 @@
   <h2> <span id="pre-order">Pre-order your tickets today!</span></h2>
   <form>
     <div id="order">
-      <input type="text" name="name" class="pure-input-rounded" placeholder="Name">
+      <input type="text" name="name" class="pure-input-rounded" placeholder="Name" required>
       <br>
       <br>
-      <input type="radio" name="age">15 and below
-      <input type="radio" name="age">16-18
-      <input type="radio" name="age">19+
+      <p class="place">Age:</p>
+      <input type="radio" name="age"><span class="age">15 and below</span>
+      <input type="radio" name="age"><span class="age">16-18 </span>
+      <input type="radio" name="age"><span class="age">19+ </span>
       <br>
-            <p>Where are you?</p>
+      <br>
+      <p class="place">What country are you in?</p>
       <!--<input type="option" value="United States">-->
       <select name="cars">
+        <option value="blank"></option>
         <option value="usa">United States</option>
         <option value="Canada">Canada</option>
         <option value="korea">South Korea</option>
         <option value="Mexico">Mexico</option>
         <option value="china">China</option>
-        <option value="other">Other Regional Areas</option> 
+        <option value="other">Other Regional Areas</option>
       </select>
-      <p>Email Address:</p>
-      <input type="text" class="pure-input-rounded" placeholder="Email"><br><br>
-          <input type="submit" value="submit">
+
+      <br>
+      <br>
+      <p class="place">Email Address:</p>
+      <input type="text" class="pure-input-rounded" placeholder="Email">
+      <br>
+      <br>
+      <button type="submit" class='button-submit pure-button'>Submit</button>
       <p><span class="bg-color">Children who are <strong>15 and under</strong> require a parent consent. Allow a parent to hover around to assure you are able to attend the movie with your paid ticket.</span></p>
     </div>
-    <div id="feat-list">
+
     <h3>Featuring . . .</h3>
-    <ul>
-      <li>Got7</li>
-      <li>Big Bang</li>
-      <li>Sistar</li>
-      <li>BTS</li>
-      <li>EXO</li>
-      <li>2ne1</li>
-      <li>iKon</li>
-      <li>Girls Generation</li>
-      <li>Kara</li>
-      <li>Girl's Day</li>
-    </ul>
+    <div id="feat-list">
+      <ul>
+        <li>Got7</li> <img id="got-7" src="got7.jpg"> <img id="bts" src="BTS.jpg"> <img id="big-bang" src="big-bang.JPG">
+        <li>Big Bang</li>
+        <li>Sistar</li>
+        <li>BTS</li>
+        <li>EXO</li>
+        <li>2ne1</li>
+        <li>iKon</li>
+        <li>Girls Generation</li>
+        <li>.. and more!</li>
+      </ul>
+    </div>
+    <br>
+    <div align="center">
+      <h3>Here's a little sneak peek</h3>
+      <video height="470" poster="kpop-dance.png" controls>
+        <source src="Movie_Project.mp4" type="video/mp4"> Your browser does not support the video tag.
+      </video>
+    </div>
     <h2>Remember!</h2>
     <p id="remember">Enjoy this amazing dance off against the most dashing male idols and gorgeous female idols. Share and branch out to friends who are interested! We will be holding a contest towards the end of this whole movie session! Remember, have fun!</p>
-    </div>
+    <a id="a1" href="#top" class="button">Top</a>
   </form>
 </body>
 
