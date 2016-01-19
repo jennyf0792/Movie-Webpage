@@ -6,14 +6,22 @@ body {
     background-attachment: fixed;
 }
 
-.animated {
+h1 {
     color: #ffff99;
     text-align: center;
     font-size: 100px;
     font-family: "Righteous";
-    -vendor-animation-duration: 3s;
-    -vendor-animation-iteration-count: infinite;
-    -vendor- animation-delay: 1s;
+    text-shadow: 10px 10px 5px black;
+}
+
+.animated {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+#span {
+    text-shadow: 7px 7px 4px black;
 }
 
 h2 {
