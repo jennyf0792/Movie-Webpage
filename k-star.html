@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="k-star.css" type="text/css">
   <link rel="stylesheet" href="animate.min.css" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+  <!--Applies google font-->
   <!--K-pop boybands = https://upload.wikimedia.org/wikipedia/commons/e/e1/K-pop_boybands.jpg-->
   <!--got7 = https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/GOT7_at_2015_Summer_K-POP_Festival.jpg/320px-GOT7_at_2015_Summer_K-POP_Festival.jpg-->
   <!--BTS = https://upload.wikimedia.org/wikipedia/commons/0/00/KOCIS_Korea_Mnet_BTS_01_(12986916653).jpg-->
@@ -18,7 +19,8 @@
   <div>
     <h1 class="animated infinite bounce">Dance Battle of the Century</h1>
     <p><span class="bg-color">Location: 116 Shinmullo Chongno-gu, Seoul, South Korea 110-700</span></p>
-    <p id="catch-phrase">Lights off, music roared loudly. Cheers rose and fans thundered with all the alacrity deep down. All the Korean stars you love battling against other idols. Beautiful and handsome idols will steal your heart and engender your heart to <span id="span" style="color:	#00ffff">flutter and palpitate.</span>
+    <p id="catch-phrase">Lights off, music roared loudly. Cheers rose and fans thundered with all the alacrity deep down. All the Korean stars you love battling against other idols. Beautiful and handsome idols will steal your heart and engender your heart to <span id="span"
+      style="color:	#00ffff">flutter and palpitate.</span>
     </p>
   </div>
   <h2> <span id="pre-order">Pre-order your tickets today!</span></h2>
@@ -28,14 +30,14 @@
       <br>
       <br>
       <p class="place">Age:</p>
-      <input type="radio" name="age"><span class="age">15 and below</span>
+      <input type="radio" name="age"><span class="age">15 and below</span> <!--Creates options to select-->
       <input type="radio" name="age"><span class="age">16-18 </span>
       <input type="radio" name="age"><span class="age">19+ </span>
       <br>
       <br>
       <p class="place">What country are you in?</p>
       <!--<input type="option" value="United States">-->
-      <select name="cars">
+      <select name="cars"> <!--creates a dropdown menu-->
         <option value="blank"></option>
         <option value="usa">United States</option>
         <option value="Canada">Canada</option>
@@ -52,12 +54,13 @@
       <br>
       <br>
       <button type="submit" class='button-submit pure-button'>Submit</button>
-      <p><span class="bg-color">Children who are <strong>15 and under</strong> require a parent consent. Allow a parent to hover around to assure you are able to attend the movie with your paid ticket.</span></p>
+      <p><span class="bg-color">Children who are <strong>15 and under</strong><!--Makes words BOLD--> require a parent consent. Allow a parent to hover around to assure you are able to attend the movie with your paid ticket.</span></p>
     </div>
 
     <h3>Featuring . . .</h3>
     <div id="feat-list">
       <ul>
+        <!--Creates a list-->
         <li>Got7</li> <img id="got-7" src="got7.jpg"> <img id="bts" src="BTS.jpg"> <img id="big-bang" src="big-bang.JPG">
         <li>Big Bang</li>
         <li>Sistar</li>
@@ -72,15 +75,19 @@
     <br>
     <div align="center">
       <h3>Here's a little sneak peek</h3>
-      <div class="video_poster">
-        <video poster="transparent.png" controls>
-          <source src="Movie_Project.mp4" type="video/mp4"> Your browser does not support the video tag.
-        </video>
+      <div id="gradient">
+        <div class="video_poster">
+          <video poster="transparent.png" controls>
+            <!--Allows a video to be placed here-->
+            <source src="Movie_Project.mp4" type="video/mp4"> Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </div>
     <h2>Remember!</h2>
     <p id="remember">Enjoy this amazing dance off against the most dashing male idols and gorgeous female idols. Share and branch out to friends who are interested! We will be holding a contest towards the end of this whole movie session! Remember, have fun!</p>
     <a id="a1" href="#top" class="button">Top</a>
+    <!--Brings the user to top of the page-->
   </form>
 </body>
 

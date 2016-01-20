@@ -161,7 +161,11 @@ h3 {
 
 .video_poster {
     width: 854px;
-    height: 484px;
-    background-size: 854px 484px;
+    height: 480px;
+    background-size: 854px 480px;
     background-image: url(kpop-dance.png);
+}
+
+#gradient {
+    background-size:;
 }
