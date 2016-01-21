@@ -125,13 +125,13 @@ h3 {
     background: rgb(28, 184, 65);
     border: 3px solid #99ff99;
     border-radius: 15px;
+    transition: transform 2s;
 }
 
 .pure-button:hover {
-    transform: rotateY(360deg);
-    transition: transform 2s linear 0s alternate;
-    margin: 0px;
-    float: left;
+    transform: rotate(360deg);
+    width: 200px;
+    display: inline-block;
     position: relative;
 }
 
