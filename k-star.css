@@ -1,9 +1,9 @@
 body {
     background-image: url("K-pop_boybands.jpg");
-    background-color: #ff6699;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #ff6699; /*Set back-up background as pink*/
+    background-size: cover; /*Makes sure the background covers the whole page*/
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /*Makes the background not move*/
     overflow: auto;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 h2 {
-    color: #ff4d79;
+    color: #ff4d79; /*Makes text pink*/
     font-size: 45px;
     text-align: center;
 }
@@ -58,7 +58,7 @@ p {
 
 .bg-color {
     color: #0072e6;
-    background-color: rgba(102, 255, 140, 0.7);
+    background-color: rgba(102, 255, 140, 0.7); /*Makes background 70% transparent*/
 }
 
 #catch-phrase {
@@ -75,8 +75,8 @@ p {
 .pure-input-rounded {
     height: 20px;
     font-size: 14pt;
-    border-radius: 2em;
-    border-color: skyblue;
+    border-radius: 2em; /*Sets the border thickness*/
+    border-color: skyblue; /*Outlines border of input box to the color skyblue*/
     padding: .5em 1em;
 }
 
@@ -84,25 +84,25 @@ p {
     float: left;
     text-align: center;
     font-size: 30px;
-    color: #3333cc;
+    color: #3333cc; /*Makes font color purple*/
 }
 
 .place {
-    background-color: rgba(191, 191, 191, 0.8);
-    display: inline;
+    background-color: rgba(191, 191, 191, 0.8); /*Gives the words gray-ish background and 80% transparent*/
+    display: inline; /*Keeps words on the same line*/
 }
 
 #remember {
     color: green;
     text-align: center;
-    background-color: #99ffff;
-    opacity: 0.7;
+    background-color: #99ffff; /*Background color is green*/
+    opacity: 0.7; /*Background is 70% transparent*/
 }
 
 #feat-list {
-    color: #aaff80;
+    color: #aaff80; /*Sets font color to green*/
     font-size: 23px;
-    background-color: rgba(153, 153, 255, 0.8);
+    background-color: rgba(153, 153, 255, 0.8); /*Background is purple-ish and is 80% transparent*/
 }
 
 h3 {
@@ -196,7 +196,7 @@ h3 {
     background-position: 10px 140px;
     width: 834px;
     height: 570px;
-    background-size: 810px 427px;
+    background-size: 810px 429px;
     background-image: url(kpop-dance.png);
 }
 
@@ -207,6 +207,5 @@ video {
 #gradient {
     width: 1150px;
     height: 657px;
-    background: #FFFF99;
     background: radial-gradient(#FFFF99 38%, yellow 48%, rgba(0,0,0,0) 70%);
 }
