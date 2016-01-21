@@ -114,11 +114,11 @@ h3 {
 }
 
 .pure-button:hover {
-    transform: rotateY(90deg);
+    transform: rotateY(360deg);
     transition: transform 2s linear 0s alternate;
     margin: 0px;
-    float: left;
     position:relative;
+    display: inline-block;
 }
 
 .age {
