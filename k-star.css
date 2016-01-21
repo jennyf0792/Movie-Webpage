@@ -142,20 +142,31 @@ h3 {
 #got-7 {
     position: absolute;
     margin: -10px 200px;
+    height: 200px;
 }
 
 #bts {
     position: absolute;
-    margin: -10px 600px;
+    margin: -10px 200px;
     height: 200px;
     width: 350px;
+    transition: transform 2s;
+}
+
+#bts:hover {
+    transform: translate(400px,0px);
 }
 
 #big-bang {
     position: absolute;
-    margin: -10px 1050px;
+    margin: -10px 00px;
     height: 200px;
     width: 350px;
+    transition: transform 5s;
+}
+
+#big-bang:hover {
+    transform: translate(850px,0px);
 }
 
 #a1 {
