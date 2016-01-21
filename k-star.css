@@ -14,17 +14,17 @@ body {
     font-family: "Righteous";
     text-shadow: 10px 10px 5px gray;
     position: relative;
-    animation: titleBounce 1.5s ease-out 1s infinite alternate;
+    animation: titleBounce 1.5s ease-out 1s infinite alternate; /*called the animation name, duration, timing-function, time-delay, and iteration-count*/
 }
 
 @keyframes titleBounce {
-    from {
+    from { /*start from 0px of the div (h1 or animated)*/
         bottom: 0px;
     }
-    to {
+    to { /*ending point; this will make the title to bounce up and down forever*/
         bottom: 50px;
     }
-    0% {
+    0% { /*changes the color of the title constantly from 0% - 100%; similar as a flashing animation*/
         color: #ffff99;
     }
     25% {
@@ -125,14 +125,14 @@ h3 {
     background: rgb(28, 184, 65);
     border: 3px solid #99ff99;
     border-radius: 15px;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .pure-button:hover {
-    transform: rotate(360deg);
-    width: 200px;
-    display: inline-block;
-    position: relative;
+    transform: rotate(360deg); /*once cursor hovered, the button will do a 360 flip*/
+    width: 200px; /*set the size of the button to shift once hovered*/
+    display: inline-block; /*excludes any outside text to interfere with the button*/
+    position: relative; 
 }
 
 .age {
