@@ -182,20 +182,20 @@ h3 {
 
 .video_poster {
     background-repeat: no-repeat;
-    background-position: 0px 42px;
-    width: 854px;
-    height: 550px;
-    background-size: 854px 480px;
+    background-position: 10px 140px;
+    width: 834px;
+    height: 570px;
+    background-size: 810px 427px;
     background-image: url(kpop-dance.png);
 }
 
 video {
-    padding-top: 40px;
+    padding-top: 92px;
 }
 
 #gradient {
-    /*background-size: 2000px 1000px;*/
-    width: 950px;
-    height: 550px;
+    width: 1150px;
+    height: 657px;
     background: #FFFF99;
+    background: radial-gradient(#FFFF99 38%, yellow 48%, rgba(0,0,0,0) 70%);
 }
