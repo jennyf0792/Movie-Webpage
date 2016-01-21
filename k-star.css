@@ -58,7 +58,7 @@ p {
 
 .bg-color {
     color: #0072e6;
-    background-color: rgba(102, 255, 140, 0.7); /*Makes background 70% transparent*/
+    background-color: rgba(102, 255, 140, 0.7); /*Makes background 30% transparent*/
 }
 
 #catch-phrase {
@@ -88,7 +88,7 @@ p {
 }
 
 .place {
-    background-color: rgba(191, 191, 191, 0.8); /*Gives the words gray-ish background and 80% transparent*/
+    background-color: rgba(191, 191, 191, 0.8); /*Gives the words gray-ish background and 20% transparent*/
     display: inline; /*Keeps words on the same line*/
 }
 
@@ -96,13 +96,13 @@ p {
     color: green;
     text-align: center;
     background-color: #99ffff; /*Background color is green*/
-    opacity: 0.7; /*Background is 70% transparent*/
+    opacity: 0.7; /*Background is 30% transparent*/
 }
 
 #feat-list {
     color: #aaff80; /*Sets font color to green*/
     font-size: 23px;
-    background-color: rgba(153, 153, 255, 0.8); /*Background is purple-ish and is 80% transparent*/
+    background-color: rgba(153, 153, 255, 0.8); /*Background is purple-ish and is 20% transparent*/
 }
 
 h3 {
@@ -150,11 +150,11 @@ h3 {
     margin: -10px 200px;
     height: 200px;
     width: 350px;
-    transition: transform 2s;
+    transition: transform 2s; /*Puts transformation into action*/
 }
 
 #bts:hover {
-    transform: translate(400px,0px);
+    transform: translate(400px,0px); /*When the cursor is hovered over image, the image will move 400 pixels to the right*/
 }
 
 #big-bang {
@@ -181,19 +181,15 @@ h3 {
     color: rgba(0, 0, 0, 0.55);
     text-align: center;
     background: -webkit-linear-gradient(top, #FF1493, #2f5f63);
-    background: -moz-linear-gradient(top, #FF1493, #2f5f63);
-    background: -o-linear-gradient(top, #FF1493, #2f5f63);
-    background: -ms-linear-gradient(top, #FF1493, #2f5f63);
-    background: linear-gradient(top, #FF1493, #2f5f63);
+    background: linear-gradient(top, #FF1493, #2f5f63); /*Creates gradient effect going down from pink to turquoise on button*/
     border-radius: 15px;
-    box-shadow: 0 8px 0 #00BFFF;
-    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
-    transform: rotate3d(180deg, 180deg, 90deg);
+    box-shadow: 0 8px 0 #00BFFF; /*Gives button shadow at the bottom*/
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2); /*Gives text a shadow of black*/
 }
 
 .video_poster {
     background-repeat: no-repeat;
-    background-position: 10px 140px;
+    background-position: 10px 140px; /*Pushes background 10 pixels right and 140 pixels down*/
     width: 834px;
     height: 570px;
     background-size: 810px 429px;
@@ -201,11 +197,11 @@ h3 {
 }
 
 video {
-    padding-top: 92px;
+    padding-top: 92px; /*Video pushes 92 pixels from the top*/
 }
 
 #gradient {
     width: 1150px;
     height: 657px;
-    background: radial-gradient(#FFFF99 38%, yellow 48%, rgba(0,0,0,0) 70%);
+    background: radial-gradient(#FFFF99 38%, yellow 48%, rgba(0,0,0,0) 70%); /*Creates gradient to an ellipse form. The inside color is light yellow and the middle is yellow and the outside is black but 100% transparent*/
 }
