@@ -13,18 +13,32 @@ body {
     font-size: 100px;
     font-family: "Righteous";
     text-shadow: 10px 10px 5px gray;
-    position:relative;
-    animation: titleBounce 1s ease-out 1s infinite alternate ;
+    position: relative;
+    animation: titleBounce 1.5s ease-out 1s infinite alternate;
 }
 
 @keyframes titleBounce {
-    from {bottom:0px;}
-    to {bottom:50px;}
-    0% {color: #ffff99;}
-    25% {color: black;}
-    50% {color:  #ffff99;}
-    75% {color: black;}
-    100% {color:  #ffff99;}
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 50px;
+    }
+    0% {
+        color: #ffff99;
+    }
+    25% {
+        color: black;
+    }
+    50% {
+        color: #ffff99;
+    }
+    75% {
+        color: black;
+    }
+    100% {
+        color: #ffff99;
+    }
 }
 
 #span {
@@ -51,7 +65,7 @@ p {
     background-color: rgba(255, 204, 204, 0.7);
     color: #660066;
     text-align: center;
-    text-shadow:10px 10px #f0fff;
+    text-shadow: 10px 10px #f0fff;
 }
 
 #pre-order {
@@ -117,8 +131,8 @@ h3 {
     transform: rotateY(360deg);
     transition: transform 2s linear 0s alternate;
     margin: 0px;
-    position:relative;
-    display: inline-block;
+    float: left;
+    position: relative;
 }
 
 .age {
@@ -128,20 +142,31 @@ h3 {
 #got-7 {
     position: absolute;
     margin: -10px 200px;
+    height: 200px;
 }
 
 #bts {
     position: absolute;
-    margin: -10px 600px;
+    margin: -10px 200px;
     height: 200px;
     width: 350px;
+    transition: transform 2s;
+}
+
+#bts:hover {
+    transform: translate(400px,0px);
 }
 
 #big-bang {
     position: absolute;
-    margin: -10px 1050px;
+    margin: -10px 200px;
     height: 200px;
     width: 350px;
+    transition: transform 5s;
+}
+
+#big-bang:hover {
+    transform: translate(850px,0px);
 }
 
 #a1 {
@@ -161,13 +186,27 @@ h3 {
     background: -ms-linear-gradient(top, #FF1493, #2f5f63);
     background: linear-gradient(top, #FF1493, #2f5f63);
     border-radius: 15px;
-    box-shadow: 0 8px 0 #00BFFF; 
+    box-shadow: 0 8px 0 #00BFFF;
     text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    transform: rotate3d(180deg, 180deg, 90deg);
 }
 
 .video_poster {
-    width: 854px;
-    height: 480px;
-    background-size: 854px 480px;
+    background-repeat: no-repeat;
+    background-position: 10px 140px;
+    width: 834px;
+    height: 570px;
+    background-size: 810px 427px;
     background-image: url(kpop-dance.png);
+}
+
+video {
+    padding-top: 92px;
+}
+
+#gradient {
+    width: 1150px;
+    height: 657px;
+    background: #FFFF99;
+    background: radial-gradient(#FFFF99 38%, yellow 48%, rgba(0,0,0,0) 70%);
 }
