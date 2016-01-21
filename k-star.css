@@ -14,7 +14,7 @@ body {
     font-family: "Righteous";
     text-shadow: 10px 10px 5px gray;
     position: relative;
-    animation: titleBounce 1s ease-out 1s infinite alternate;
+    animation: titleBounce 1.5s ease-out 1s infinite alternate;
 }
 
 @keyframes titleBounce {
@@ -182,20 +182,20 @@ h3 {
 
 .video_poster {
     background-repeat: no-repeat;
-    background-position: 0px 100px;
+    background-position: 0px 42px;
     width: 854px;
-    height: 480px;
+    height: 550px;
     background-size: 854px 480px;
     background-image: url(kpop-dance.png);
 }
 
 video {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 #gradient {
     /*background-size: 2000px 1000px;*/
-    width: 1000px;
-    height: 600px;
+    width: 950px;
+    height: 550px;
     background: #FFFF99;
 }
