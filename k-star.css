@@ -114,8 +114,11 @@ h3 {
 }
 
 .pure-button:hover {
-    transform: rotate(360deg);
-    transform-duration: 1s;
+    transform: rotateY(90deg);
+    transition: transform 2s linear 0s alternate;
+    margin: 0px;
+    float: left;
+    position:relative;
 }
 
 .age {
@@ -168,4 +171,3 @@ h3 {
     background-size: 854px 480px;
     background-image: url(kpop-dance.png);
 }
-
