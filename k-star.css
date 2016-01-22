@@ -150,7 +150,7 @@ h3 {
     margin: -10px 200px;
     height: 200px;
     width: 350px;
-    transition: transform 2s; /*Puts transformation into action*/
+    transition: transform 2s; /*Puts transformation into action and the transition lasts for 2 seconds*/
 }
 
 #bts:hover {
@@ -162,11 +162,11 @@ h3 {
     margin: -10px 200px;
     height: 200px;
     width: 350px;
-    transition: transform 5s;
+    transition: transform 3s; /*Puts transformation into action and the transition lasts for 5 seconds*/
 }
 
 #big-bang:hover {
-    transform: translate(850px,0px);
+    transform: translate(850px,0px); /*When the cursor is hovered over the image, the image will move 850 pixels to the right*/
 }
 
 #a1 {
