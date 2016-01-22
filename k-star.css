@@ -162,7 +162,7 @@ h3 {
     margin: -10px 200px;
     height: 200px;
     width: 350px;
-    transition: transform 3s; /*Puts transformation into action and the transition lasts for 5 seconds*/
+    transition: transform 3s; /*Puts transformation into action and the transition lasts for 3 seconds*/
 }
 
 #big-bang:hover {
